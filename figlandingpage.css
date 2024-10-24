@@ -1,0 +1,662 @@
+html{
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color:white;
+    width: 100%;
+    font-family: "Arima", system-ui;
+
+}
+.figma{
+    padding-bottom: 100px;
+}
+.features{
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+.features h1{
+    font-size: 40px;
+}
+.features p{
+    font-size: 20px;
+    color: grey;
+}
+.figma h1{
+    text-align: center ;
+    margin-top: -300px;
+    color: white;
+    font-size: 55px;
+}
+.figma p{
+    text-align: center ;
+    margin-top: -350px;
+    color: white;
+    font-size: 22px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+    position:absolute;
+    flex-direction: row-reverse;
+}
+.fpageimg{
+    overflow: hidden;
+    width: 100%;
+}
+.logo img{
+    height: 80px;
+    margin-left: 100px;
+}
+.nav-logo img{
+    margin-left: 30px;
+    height: 30px;
+}
+.nav-logo{
+    margin-left: 200px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+
+
+}
+.nav-links li{
+    margin-left: 20px;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.10s;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both; /* Shake effect on hover */
+}
+.nav-button{
+    margin-left: 620px;
+    margin-top: 100px;
+    padding: 13px 40px;
+    background-color:rgb(9, 152, 228);
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
+    color: white;
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both; /* Shake effect on hover */
+}
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 100px; 
+}
+  
+  .feature-item {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.10s ease;
+  }
+  /* Hover effect */
+.feature-item:hover {
+    transform: scale(1.20); /* Slight zoom on hover */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  
+  .feature-item .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item p {
+    color: #777;
+    font-size: 1em;
+  }
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.container2 img{
+    height: 350px;
+    margin-right: 60px;
+    margin-top: 60px;
+    border-radius: 100px;
+}
+.demo{
+  margin-left: 150px;
+  margin-top: 10px;
+  color: black;
+}
+.demo p{
+    margin-top: -40px;
+    font-size: 18px;
+    color: grey;
+}
+
+.demo h1{
+    color: black;
+    font-size: 70px;
+}
+.demo button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(9, 152, 228);
+    color: white;
+    font-size: 13px;
+    margin-left: 1px;
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both; /* Shake effect on hover */
+}
+.demosec{
+    background-color:white;
+    padding-bottom: 150px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+
+}
+.container3 img{
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 100px;
+}
+.demoo{
+  margin-right: 200px;
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.demoo p{
+    margin-top: -30px;
+    font-size: 70px; 
+    color: grey;
+}
+
+.demoo h1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.information button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(9, 152, 228);
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both; /* Shake effect on hover */
+}
+.opersec{
+    background-color:white;
+    padding-bottom: 150px;
+}
+.demoo input{
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.information{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.information2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: -70px;
+    margin-left: 5px;
+}
+.information2 h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.information2 p{
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+.features2{
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.features2 h1{
+    font-size: 40px;
+}
+.features2 p{
+    font-size: 20px;
+    color: gray;
+}
+.features2-container4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px; 
+}
+  
+  .feature2-item {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .feature2-item:hover {
+    transform: scale(1.20); /* Slight zoom on hover */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  .feature2-item img {
+    font-size: 40px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .feature2-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .feature2-item p {
+    color: #777;
+    font-size: 1em;
+  }
+  .containerr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.containerr img{
+    height: 50px;
+    margin-top: 10px;
+}
+.de{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: black;
+}
+.de p{
+    margin-top: 40px;
+    font-size: 18px;
+    color: grey;
+}
+
+.de h1{
+    color: black;
+    font-size: 45px;
+}
+.demo-button2{
+    margin-top: 40px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(9, 152, 228);
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both; /* Shake effect on hover */
+}
+.demose{
+    background-color:white;
+    padding-bottom: 150px;
+}
+.price{
+    background-color:rgba(37, 43, 66, 1);
+    
+    padding-top: 100px;
+    padding-bottom: 400px;
+    max-width: 100%;
+}
+.price h1{
+    color: wheat;
+}
+.price p{
+    color: grey;
+}
+.card2 {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    transition: transform 0.3s ease;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.dollar{
+    font-weight: bold;
+    font-size: 50px;
+}
+.card-content .dollar{
+    color: black;
+    font-size: 30px;
+}
+.card2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2:hover{
+    transform: scale(1.10); /* Slight zoom on hover */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+.card3:hover{
+    transform: scale(1.10); /* Slight zoom on hover */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+.price h1{
+    font-size: 45px;
+    text-align: center;
+}
+.price p{
+    text-align: center;
+    font-size: 19px;
+}
+.card-button {
+    background-color: #0077f5;
+    color:white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Hover Effect for Button */
+.card-button:hover {
+    background-color:paleturquoise;
+}
+.card-content p{
+    font-size: 17px;
+}
+.cal{
+    color: white;
+}
+
+.price2{
+    padding-top: 100px;
+    padding-bottom: 400px;
+    max-width: 100%;
+}
+.price2 h1{
+    color: black;
+}
+.price2 p{
+    color: black;
+}
+.price2 .email{
+    padding: 12px 70px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.price2 .Message{
+    padding: 12px 70px;
+    background-color: white;
+    margin-top: 20px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.card3 {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: whitesmoke;
+    transition: transform 0.3s ease;
+    text-align: center;
+    box-shadow: 0px 0px 10px;
+    
+}
+.card-container3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 400px;
+}
+.contact-container{
+    display: flex;
+    margin-left: 20px;
+}
+.price2 h1{
+    font-size: 45px;
+    text-align: center;
+}
+.price2 p{
+    text-align: center;
+    font-size: 19px;
+}
+.card-button3{
+    background-color: #0077f5;
+    color:white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Hover Effect for Button */
+.card-button:hover {
+    background-color:paleturquoise;
+}
+.card-content3 p{
+    font-size: 17px;
+}
+.cal{
+    color: white;
+}
+
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-item img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Image Container */
+.image-container {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.image-container img {
+    width: 450px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+.footer {
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-left: 100px;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.footer-contact a{
+    color: #5d48e4;
+}
+.footer-contact{
+    margin-top: 70px;
+}
+.footer-about h3, 
+ .footer-contact h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white
+}
+.footer-links h3{
+margin-left: 70px;
+margin-top: 80px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.footer-links ul li {
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color:paleturquoise;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+.footer-about img.about-img {
+    max-width: 80%; /* Ensures the image is responsive */
+    height: auto;
+    margin-bottom: 15px; /* Adds space below the image */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+.contact-info2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.info2-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info2-item img {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.info2-item p {
+    font-size: 16px;
+    color: white;
+}
